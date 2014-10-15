@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.apress.plugins</groupId>
+    <artifactId>gswm-plugin</artifactId>
+    <version>1.0.0</version>
+    <packaging>maven-plugin</packaging>
+    <name>Simple Hello Plugin</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>3.2.3</version>
+        </dependency>
+    </dependencies>
+</project> 
