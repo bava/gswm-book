@@ -9,6 +9,10 @@
 
   <name>Getting Started with Maven</name>
   <url>http://apress.com</url>
+
+  <properties>
+   <junit.version>4.11</junit.version>
+  </properties>
   	
   <developers>
    <developer>
@@ -33,7 +37,7 @@
 	<dependency>       
 		<groupId>junit</groupId>       
 		<artifactId>junit</artifactId>       
-		<version>4.11</version>       
+		<version>${junit.version}</version>       
 		<scope>test</scope>	    	 
 	</dependency>   
 </dependencies>
