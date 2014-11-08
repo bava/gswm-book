@@ -11,7 +11,7 @@
   <url>http://apress.com</url>
 
   <description>
-    This project acts as a starter project for the Getting Started With Maven book published by Apress. 
+       This project acts as a starter project for the Introducing Maven book (http://www.apress.com/9781484208427) published by Apress. 
   </description>  
 
   <mailingLists>
@@ -53,6 +53,7 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
+      <scope>test</scope>  
     </dependency>
   </dependencies>
   
